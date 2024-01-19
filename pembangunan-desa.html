@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/main.css">
+    <title>Pembangunan Desa</title>
+    <style>
+        .colonList b {
+            display: inline-block;
+            width: 30%;
+            position: relative;
+            padding-right: 10px;
+            /* Ensures colon does not overlay the text */
+        }
+
+        .colonList b::after {
+            content: ":";
+            position: absolute;
+            right: 10px;
+        }
+
+        .padding-list {
+            padding-top: 2rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        /* .table {
+            margin-left: 2rem;
+            margin-right: 2rem;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="main" class="card-new">
+        <div class="container pt-5 pb-5 ">
+            <p class="text-uppercase fw-bold text-center text-decoration-underline">PENGAWASAN PELAKSANAAN PEMBANGUNAN DESA</p>
+
+            <div class="padding-list">
+                <ol class="colonList">
+                    <li><b>Desa</b> Handil Terusan</li>
+                    <li><b>Kecamatan</b> Anggana</li>
+                    <li><b>Sumber Dana</b> ADD/DD/BHRD/BKKD/........</li>
+                    <li><b>Tahun Anggaran</b> 2023</li>
+                    <li><b>Bidang</b> Pelaksanaan Pembangunan Desa</li>
+                    <li><b>Sub Bidang</b><input type="checkbox">Pekerjaan Umum dan Penataan Ruang
+                        <ul class="list-unstyled" style="padding-left: 12rem;">
+                            <li><input type="checkbox">Kawasan Permukiman</li>
+                            <li><input type="checkbox">Perhubungan, Komunikasi, dan Informatika</li>
+                        </ul>
+                    </li>
+                    <li><b>Nama Kegiatan</b> Pembuatan Talud Handil A</li>
+                    <li><b>Alamat Kegiatan</b> RT. 08 Handil A, Desa Handil Terusan</li>
+                    <li><b>Tanggal Kegiatan</b> 14 Juni 2023</li>
+                    <li><b>Nilai Kegiatan</b> Rp 22.902.700,00</li>
+                    <li><b>Pelaksana</b> Kasi Kesra dan Pelayanan</li>
+                </ol>
+            </div>
+
+            <p class="pt-5 text-center text-decoration-underline">Bahan/Material yang Telah Tiba di Lokasi Kegiatan</p>
+
+            <table class="table table-bordered text-center" style="width:80%; margin-left: auto; margin-right: auto;">
+                <thead style="background-color: #F3F3F3;">
+                    <tr class="fw-bold">
+                        <th scope="col">No</th>
+                        <th scope="col">Nama/Jenis Bahan</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Papan Nama Kegiatan</td>
+                        <td>1 ls</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Tongkat Ulin 10/10 x 3 m</td>
+                        <td>4 btg</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Batu Padas</td>
+                        <td>5 ret</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Pasir Sungai</td>
+                        <td>2 ret</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Paku</td>
+                        <td>1 kg</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Benang</td>
+                        <td>1 gulung</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Pelastik cor</td>
+                        <td>1 pack</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Timba cor</td>
+                        <td>2 unit</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Balok 5/10</td>
+                        <td>4 btg</td>
+                        <td>Ada/Sesusia</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="padding-left: 6rem; padding-top: 5rem;">Dokumentasi kegiatan 0%</p>
+            <div style="max-width: 85%; height: auto; padding-left: 6rem;">
+                <img src="/img/0.jpg" class="img-thumbnail " alt="doc-1">
+            </div>
+            <p style="padding-left: 6rem; padding-top: 5rem;">Dokumentasi kegiatan 25%</p>
+            <div style="max-width: 85%; height: auto; padding-left: 6rem;">
+                <img src="/img/25.jpg" class="img-thumbnail " alt="doc-1">
+            </div>
+            <p style="padding-left: 6rem; padding-top: 5rem;">Dokumentasi kegiatan 50%</p>
+            <div style="max-width: 85%; height: auto; padding-left: 6rem;">
+                <img src="/img/50.jpg" class="img-thumbnail " alt="doc-1">
+            </div>
+            <p style="padding-left: 6rem; padding-top: 5rem;">Dokumentasi kegiatan 75%</p>
+            <div style="max-width: 85%; height: auto; padding-left: 6rem;">
+                <img src="/img/75.jpg" class="img-thumbnail " alt="doc-1">
+            </div>
+            <p style="padding-left: 6rem; padding-top: 5rem;">Dokumentasi kegiatan 100%</p>
+            <div style="max-width: 85%; height: auto; padding-left: 6rem;">
+                <img src="/img/100.jpg" class="img-thumbnail " alt="doc-1">
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

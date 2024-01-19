@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/main.css">
+    <title>Surat Keterangan Domisili</title>
+    <style>
+        .container {
+            width: 650px;
+            height: 200px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .item {
+            display: inline-block;
+            margin: 2px;
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style: none;
+            display: table;
+        }
+
+        li {
+            display: table-row;
+        }
+
+        b {
+            display: table-cell;
+            padding-right: 3em;
+        }
+    </style>
+    <script>
+        function pgPrint() {
+            window.print();
+        }
+    </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+
+    <div class="d-flex justify-content-center">
+        <div id="main" class="card">
+            <div class="card-body">
+                <!-- kop -->
+                <div class="row align-items-center">
+                    <div class="col-2"><img src="/img/Lambang.png" alt="logo-kabupaten"></div>
+                    <div class="col-8">
+                        <p class="text-uppercase text-center fw-bold fs-5">pemerintah kabupaten kutai
+                            kartanegara<br>kecamatan anggana<br>desa sidomulyo
+                        </p>
+                        <div class="row text-center mt-0 ">
+                            <p class="col">Jalan. Pesantren No.9 RT. 03 Dusun 1 Handil D</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="style8">
+                <!-- end kop -->
+
+                <!-- body surat -->
+                <p class="text-center text-uppercase text-decoration-underline fw-bold mb-0">surat pengantar</p>
+                <p class="text-center mt-0">Nomor: B-24/HT/Kesra/381.1/01/2024</p>
+
+
+                <p class="m-lg-5 mb-0">
+                    Surat pengantar ini diberikan kepada:
+                </p>
+
+                <div class="m-lg-3">
+                    <ul>
+                        <li><b>Nama</b>: <strong>AMIRULLAH</strong></li>
+                        <li><b>Tempat/Tanggal Lahir</b>: SUL-SEL, 01-07-1968</li>
+                        <li><b>Jenis Kelamin</b>: Laki-laki</li>
+                        <li><b>Status</b>: Kawin</li>
+                        <li><b>Agama/Suku</b>: Islam</li>
+                        <li><b>Pekerjaan</b>: Nelayan/Perikanan</li>
+                        <li><b>Nomor KTP/KK</b>: 6402041010110007</li>
+                        <li><b>Alamat</b>: Handil B, RT. 002 Desa Handil Terusan Kec. Anggana</li>
+                        <li><b>Keputusan untuk</b>: Membuat BPJS Pemerintah Daerah</li>
+                    </ul>
+                </div>
+
+                <p class="m-lg-5 mt-0">
+                    Adalah benar Keluarga Miskin sesuai Surat Pengantar dari Ketua RT. 002 yang saat ini belum memiliki Jaminan BPJS Kesehatan, mohon di usulkan sebagai kelengkapan persyaratan untuk Mengurus BPJS APBD Kutai Kartanegara<br><br>
+                    Demikian surat pengantar ini dibuat dan diberikan kepada yang berkepentingan untuk dapat dipergunakan sebagaimana mestinya.
+                </p>
+                <!-- end body -->
+
+                <!-- ttd section -->
+                <div class="container">
+                    <div class="item">
+                        <p>Handil terusan, 08 Januari 2024 <br>Kepala Desa Handil Terusan</p>
+                        <img src="/img/dummy_ttd.png" alt="ttd">
+                        <p class="text-decoration-underline text-uppercase fw-bold">Achmadi, A.Md</p>
+                    </div>
+                </div>
+                <!-- end ttd -->
+
+                <!-- <div class="text-center mt-lg-5">
+                    <input type="button" value="Print Surat" class="btn btn-primary" onclick="window.print()" />
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
